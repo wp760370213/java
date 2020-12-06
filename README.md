@@ -14,23 +14,22 @@
 - 学分
 
 # 三、实验方法
-
-- 实验里的核心代码、注释
-	 //父类People的有参构造方法
-	            People(int id,String name,String sex,String major){
-		    this.id=id;
-		     this.name=name;
-		     this.sex=sex;
-		    this.major=major;
-	}
+    实验里的核心代码、注释 
+    //父类People的有参构造方法
+    People(int id,String name,String sex,String major){
+	this.id=id;
+	this.name=name;
+	this.sex=sex;
+	this.major=major;
+	   }
 	//父类People的输出方式toString()
 	public String toString() {
 		return "编码："+id+"\n"+
 				"姓名："+name+
 				"性别："+sex+
-				"课程："+major;
-	}
-//实现属性的封装
+	   			"课程："+major;
+	      }
+    //实现属性的封装
 	public Course getScourse() {
 		return scourse;
 	}
@@ -43,8 +42,8 @@
 	public void setGrade(double grade) {
 		this.grade=grade;
 	}
-//通过嵌套语句：if...else..实现程序
-if (stu.getScourse().id==0) {
+    //通过嵌套语句：if...else..实现程序
+    i f (stu.getScourse().id==0) {
 			 System.out.println("该学生已选课。\n");
 			 System.out.println(stu);
 			 System.out.println(cour);
@@ -55,29 +54,29 @@ if (stu.getScourse().id==0) {
 		     System.out.println(stu);
 		     System.out.println("该学生无选课信息！\n");
 		}
-#四、实验结果
-该学生已选课。
+# 四、实验结果
+    该学生已选课。
 
-学生信息：
-编码：2020322104
-姓名：焦鸿霄
-性别：女
-课程：Java
+    学生信息：
+    编码：111
+    姓名：张三
+    性别：男
+    课程：Java
+ 
+    学生选课信息：
+    课程编号：8323
+      课程名字：Java
+    课程地点：教0610
+    教课老师：王强
+    上课时间：周五03/04节
 
-学生选课信息：
-课程编号：8323
-课程名字：Java
-课程地点：教0610
-教课老师：王强
-上课时间：周五03/04节
+    教师信息：
+    编码：202047
+    姓名：王强
+    性别：男
+    课程：Java
 
-教师信息：
-编码：202047
-姓名：王强
-性别：男
-课程：Java
-
-学分：6.0
+    学分：6.0
 # 五、实验感想
 通过这次实验学会使用Java编写简单的继承方法，并巩固了java知识点，如：封装、继承、函数构造等，复习了之前的if...else...语句使用方法，同时学会了toString()的使用方法。
 实验中遇到了许多问题，通过请教同学得到了解决。
